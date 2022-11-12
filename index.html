@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icone.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" /> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+    <title>Portifólio | Ynara</title>
+</head>
+<body>
+    <header>
+        <img  id="logo-ynara" src="logo.png" alt="">
+        <a href="#container-biography" class="link">Sobre mim</a>
+        <a href="#container-skills" class="link">Minhas Skills</a>
+        <a href="#container-projeto" class="link">Meus projetos</a>
+        <a href="#container-home"><button>Entrar em contato</button></a>
+    
+
+        <div class="btn-mobile">
+          <button onclick="show_menu();">
+            <img class="btn-icon" src="./menu.png" />
+          </button>
+        </div>
+      </nav>
+      </header>
+
+    
+
+  <header class="responsive-mobile">
+    <div class="img-logo">
+      <img  id="logo-ynara" src="logo.png" alt="">
+    </div>
+    <a href="#container-biography" class="link">Sobre mim</a>
+    <a href="#container-skills" class="link">Minhas Skills</a>
+    <a href="#container-projeto" class="link">Meus projetos</a>
+    <a href="#container-home"><button>Entrar em contato</button></a>
+</header>
+
+    <div id="container-home">
+        <div class="box-home">
+            <h1>Desenvolvedora Fullstack</h1>
+            <p>Descobri minha paixão pela tecnologia com minha </p>
+            <p>graduação de TSI , com foco em desenvolvimento</p>
+            <p>web venho  estudando e realizando projetos </p>
+            <p>pessoais á 2 anos, veja mais abaixo!</p>
+            <a href="https://www.instagram.com/ynara_dev/"><img id="contato-img" src="instagram.png" alt="imagem de logo instagram"></a>
+            <a href="https://www.linkedin.com/in/ynara-lira-ventura-797a341b7/"><img id="contato-img"  src="linkedin.png" alt="imagem de logo linkedin"></a>
+            <a href="https://github.com/ynaralira"><img id="contato-img"  src="github.png" alt="imagem de logo github"></a>
+            <a href=""><img id="contato-img" src="email.png" alt="imagem de logo e-mail"><a>
+        </div>
+            <img id="img-home" src="img-home.png" alt="uma foto minha">
+    </div>
+
+    <div id="container-biography">
+        <div class="box-biography">
+            <h2>+ Curso</h2>
+            <p>CURSANDO TECNOLOGIA DE</p>
+            <p>SISTEMAS PARA INTERNET, 3/5</p>
+        </div>
+
+        <div class="box-biography">
+            <h2>+ Local</h2>
+            <p>ATUALMENTE RESIDO </p>
+            <p> EM BRASILIA - DF</p>
+        </div>
+
+        <div class="box-biography">
+            <h2>+ Foco</h2>
+            <p>DESENVOLVEDORA WEB</p>
+            <p>FULLSTACK</p>
+        </div>
+    </div>
+
+    <div id="container-skills">
+        <div class="grid-skills">
+            <img src="html.png" alt="logo html">
+            <img src="css.png" alt="logo css">
+            <img src="js.png" alt="logo javascript">
+            <img src="react.png" alt="logo react">
+            <img src="bootstrap.png" alt="logo bootstrap">
+            <img src="mysql.png" alt="logo mysql">
+        </div>
+
+        <div class="skills">
+            <h3>Minhas Skills</h3>
+            <p>Conhecimentos obtidos por experiência em projetos</p>
+            <p>pessoais e também em cursos online realizados.</p>
+            <a href="./Currículo - Ynara Lira Ventura.pdf" id="button-skills" target="iframe_download"><button >Baixar Currículo</button></a>
+        </div>
+    </div>
+           <hr> 
+
+<div id="container-projeto">
+    <h4>Meus projetos</h4>  
+    <div class="slider">
+      <div class="item">
+        <img src="projeto1.png" alt="">
+      </div>
+      <div class="item">
+        <img src="projeto2.png" alt="">
+      </div>
+      <div class="item">
+        <img src="projeto3.png" alt="">
+      </div>
+      <div class="item">
+        <img src="projeto4.png" alt="">
+      </div>
+      <div class="item">
+        <img src="projeto5.png" alt="">
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <h5>© Todos os direitos reservados ao criador do site</h5>
+    <p id="teste">Desenvolvido por Ynara Lira Ventura</p>
+  </footer>
+
+
+  <script  src="./script.js"></script>
+</body>
+</html>
